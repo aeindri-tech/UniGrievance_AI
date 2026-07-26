@@ -1,0 +1,20 @@
+{
+  "name": "unigrievance-ai",
+  "version": "1.0.0",
+  "description": "UniGrievance AI - a unified, AI-triaged public grievance portal for India",
+  "main": "server/server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "node --watch server/server.js"
+  },
+  "dependencies": {
+    "@google/genai": "^2.13.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

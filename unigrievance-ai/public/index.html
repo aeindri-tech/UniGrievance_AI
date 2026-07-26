@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>UniGrievance AI — One Citizen, One Window</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header class="ek-header">
+  <div class="ek-wrap">
+    <div class="ek-eyebrow">
+      <span class="ek-eyebrow-badge">🎫</span>
+      <span class="ek-mono">ONE CITIZEN · ONE WINDOW</span>
+    </div>
+    <h1 class="ek-title">UniGrievance AI</h1>
+    <p class="ek-tagline">
+      One counter for every complaint — electricity, roads, water, cyber, and more.
+      Speak in your language. The AI reads it, sorts it, and sends it where it belongs.
+    </p>
+
+    <div class="ek-stats" id="stats">
+      <div class="stat"><p class="stat-val" id="stat-total">0</p><p class="stat-label">Reports filed</p></div>
+      <div class="stat"><p class="stat-val" id="stat-unique">0</p><p class="stat-label">Unique issues</p></div>
+      <div class="stat"><p class="stat-val" id="stat-merged">0</p><p class="stat-label">Merged as duplicates</p></div>
+      <div class="stat"><p class="stat-val" id="stat-depts">0</p><p class="stat-label">Departments live</p></div>
+    </div>
+
+    <div class="ek-tabs">
+      <button class="tab active" data-view="file">💬 File a complaint</button>
+      <button class="tab" data-view="dashboard">📊 Control room</button>
+    </div>
+  </div>
+</header>
+
+<main class="ek-wrap">
+
+  <section id="view-file" class="view">
+    <div class="card">
+      <label class="field-label">🌐 Speak or type in</label>
+      <select id="lang-select">
+        <option value="en-IN">English</option>
+        <option value="hi-IN">हिंदी Hindi</option>
+        <option value="or-IN">ଓଡ଼ିଆ Odia</option>
+        <option value="bn-IN">বাংলা Bengali</option>
+        <option value="ta-IN">தமிழ் Tamil</option>
+        <option value="te-IN">తెలుగు Telugu</option>
+        <option value="mr-IN">मराठी Marathi</option>
+        <option value="gu-IN">ગુજરાતી Gujarati</option>
+        <option value="kn-IN">ಕನ್ನಡ Kannada</option>
+        <option value="ml-IN">മലയാളം Malayalam</option>
+        <option value="pa-IN">ਪੰਜਾਬੀ Punjabi</option>
+      </select>
+
+      <textarea id="complaint-text" rows="4" placeholder="e.g. Streetlight near Kharvel Nagar bus stop hasn't worked for 10 days..."></textarea>
+
+      <div class="btn-row">
+        <button id="mic-btn" class="btn btn-ghost"><span class="mic-dot"></span> Voice</button>
+        <button id="submit-btn" class="btn btn-primary">➤ Submit complaint</button>
+      </div>
+      <p id="error-msg" class="error-msg" hidden></p>
+    </div>
+
+    <div id="result-area"></div>
+    <div id="session-log"></div>
+  </section>
+
+  <section id="view-dashboard" class="view" hidden>
+    <div class="dash-toolbar">
+      <p class="section-label">📈 Sorted by community priority</p>
+      <button id="refresh-btn" class="link-btn">↻ Refresh</button>
+    </div>
+    <div class="dept-filters" id="dept-filters">
+      <button class="chip active" data-dept="all">All</button>
+      <button class="chip" data-dept="electricity">⚡ Electricity Board</button>
+      <button class="chip" data-dept="roads">🛣️ Roads &amp; Infrastructure</button>
+      <button class="chip" data-dept="water">💧 Water Supply</button>
+      <button class="chip" data-dept="municipal">🏢 Municipal Corporation</button>
+      <button class="chip" data-dept="cyber">🛡️ Cyber Cell</button>
+      <button class="chip" data-dept="other">❔ General / Other</button>
+    </div>
+    <div id="dashboard-list"></div>
+  </section>
+
+</main>
+
+<footer class="ek-footer">Prototype · Team Git Push, Pray · Track 4: AI for Bharat</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

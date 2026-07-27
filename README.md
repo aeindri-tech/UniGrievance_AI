@@ -58,22 +58,6 @@ queue for authorities.
 | Storage | JSON file (demo) → Postgres/SQLite (production path) |
 | Frontend | Vanilla HTML/CSS/JS |
 
-## Running it locally
-
-```bash
-git clone <your-repo-url>
-cd unigrievance-ai
-npm install
-cp .env.example .env       # then paste your Gemini API key into .env
-npm start
-```
-
-Open **http://localhost:3000**.
-
-Get a free API key (no credit card needed) at https://aistudio.google.com/apikey.
-`gemini-2.5-flash` (the default) balances quality and free-tier daily quota; set
-`MODEL=gemini-2.5-flash-lite` in `.env` if you're running lots of test submissions and
-want the higher daily request cap instead.
 
 ## Deploying it
 

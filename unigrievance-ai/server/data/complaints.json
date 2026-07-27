@@ -1,0 +1,236 @@
+[
+  {
+    "id": "UG-NQ8O7",
+    "title": "Worker Dumps Garbage Inside Private Home",
+    "department": "other",
+    "location": "Not specified",
+    "severity": "Low",
+    "status": "Routed to Portal",
+    "targetPortal": "https://api.pgportal.gov.in/grievance",
+    "createdAt": 1785061837159,
+    "reports": [
+      {
+        "id": "1785061837159",
+        "rawText": "Mera labour Mere Ghar Ke Andar kachra fenk deta hai",
+        "language": "Hindi",
+        "translatedText": "My worker throws garbage inside my house.",
+        "timestamp": 1785061837159
+      }
+    ]
+  },
+  {
+    "id": "UG-NPD4I",
+    "title": "Garbage Not Collected, Cleaner Absent for Days",
+    "department": "municipal",
+    "location": "Not specified",
+    "severity": "Medium",
+    "status": "Routed to Portal",
+    "targetPortal": "https://api.municipalcorp.gov.in/tickets",
+    "createdAt": 1785061796274,
+    "reports": [
+      {
+        "id": "1785061796274",
+        "rawText": "Road per bahut jyada gandgi hai aur Safai karne wala teen din se nahin aaya hai",
+        "language": "Hindi",
+        "translatedText": "There is a lot of dirt on the road and the cleaner has not come for three days.",
+        "timestamp": 1785061796274
+      }
+    ]
+  },
+  {
+    "id": "UG-NOSFH",
+    "title": "Wi-Fi Network Hacked: Unauthorized Access Reported",
+    "department": "cyber",
+    "location": "Not specified",
+    "severity": "High",
+    "status": "Routed to Portal",
+    "targetPortal": "https://cybercrime.gov.in/api/report",
+    "createdAt": 1785061769453,
+    "reports": [
+      {
+        "id": "1785061769453",
+        "rawText": "Mere Wi-Fi Ko Kisi Ne hack kar liya",
+        "language": "Hindi",
+        "translatedText": "Someone has hacked my Wi-Fi.",
+        "timestamp": 1785061769453
+      }
+    ]
+  },
+  {
+    "id": "UG-NMQ4C",
+    "title": "Water supply disruption in Bhubaneswar for three days",
+    "department": "water",
+    "location": "Bhubaneswar",
+    "severity": "High",
+    "status": "Routed to Portal",
+    "targetPortal": "https://api.jalboard.gov.in/report",
+    "createdAt": 1785061673148,
+    "reports": [
+      {
+        "id": "1785061673148",
+        "rawText": "Bhubaneswar mein teen din se pani ka supply Nahin Hai",
+        "language": "Hindi",
+        "translatedText": "No water supply for three days in Bhubaneswar.",
+        "timestamp": 1785061673148
+      },
+      {
+        "id": "1785061727289",
+        "rawText": "there has been no water supply in saheed nagar, bhubneswar since 3 days, help",
+        "language": "English",
+        "translatedText": "there has been no water supply in saheed nagar, bhubneswar since 3 days, help",
+        "timestamp": 1785061727289
+      },
+      {
+        "id": "1785062173048",
+        "rawText": "भुवनेश्वर में तीन दिन से पानी का सप्लाई नहीं हुआ है",
+        "language": "Hindi",
+        "translatedText": "Water supply has not been available in Bhubaneswar for three days.",
+        "timestamp": 1785062173048
+      },
+      {
+        "id": "1785062230742",
+        "rawText": "there has not been water supply in bhubaneswar in 3 days",
+        "language": "en",
+        "translatedText": "there has not been water supply in bhubaneswar in 3 days",
+        "timestamp": 1785062230742
+      },
+      {
+        "id": "1785062425449",
+        "rawText": "Bhubaneswar mein teen din se Barish Nahin Hui Hai sorry pani ka supply Nahin Hai",
+        "language": "Hindi",
+        "translatedText": "Water supply disruption in Bhubaneswar for three days.",
+        "timestamp": 1785062425449
+      },
+      {
+        "id": "1785062576951",
+        "rawText": "भुवनेश्वर में तीन दिन से पानी का सप्लाई नहीं आया है",
+        "language": "hi",
+        "translatedText": "Water supply has not come for three days in Bhubaneswar.",
+        "timestamp": 1785062576951
+      },
+      {
+        "id": "1785062856475",
+        "rawText": "Bhubaneswar mein teen din se pani ka supply Nahin Hua Hai",
+        "language": "Hindi",
+        "translatedText": "Water supply has not happened for three days in Bhubaneswar.",
+        "timestamp": 1785062856475
+      },
+      {
+        "id": "1785062910462",
+        "rawText": "there has been no water supply in bhubaneswar for 3 days",
+        "language": "English",
+        "translatedText": "There has been no water supply in Bhubaneswar for 3 days.",
+        "timestamp": 1785062910462
+      }
+    ]
+  },
+  {
+    "id": "UG-NDJ2F",
+    "title": "Roads flooded due to heavy rain in Bhubaneswar",
+    "department": "roads",
+    "location": "Bhubaneswar",
+    "severity": "High",
+    "status": "Routed to Portal",
+    "targetPortal": "https://api.pwd.gov.in/roads/complaints",
+    "createdAt": 1785061244103,
+    "reports": [
+      {
+        "id": "1785061244103",
+        "rawText": "Bhubaneswar mein bahut barish ho raha hai aur pura Road per Pani Bhar Gaya Hai",
+        "language": "Hindi",
+        "translatedText": "It is raining heavily in Bhubaneswar and the entire road is filled with water.",
+        "timestamp": 1785061244103
+      },
+      {
+        "id": "1785061295498",
+        "rawText": "the whole wrote is filled with water in Bhubaneswar",
+        "language": "English",
+        "translatedText": "The whole road is filled with water in Bhubaneswar.",
+        "timestamp": 1785061295498
+      }
+    ]
+  },
+  {
+    "id": "UG-KU9ZM",
+    "title": "Water supply disruption reported in Begusarai",
+    "department": "water",
+    "location": "Begusarai",
+    "severity": "Medium",
+    "status": "Resolved",
+    "targetPortal": "https://api.jalboard.gov.in/report",
+    "createdAt": 1784996520466,
+    "reports": [
+      {
+        "id": "1784996520466",
+        "rawText": "water supply not coming in begusarai",
+        "language": "English",
+        "translatedText": "Water supply not coming in Begusarai",
+        "timestamp": 1784996520466
+      }
+    ]
+  },
+  {
+    "id": "UG-YWIO6",
+    "title": "Road accident reported on NH24 highway",
+    "department": "roads",
+    "location": "NH24",
+    "severity": "High",
+    "status": "Routed to Portal",
+    "targetPortal": "https://api.pwd.gov.in/roads/complaints",
+    "createdAt": 1784959673478,
+    "reports": [
+      {
+        "id": "1784959673478",
+        "rawText": "accident in nh24",
+        "language": "English",
+        "translatedText": "accident in nh24",
+        "timestamp": 1784959673478
+      },
+      {
+        "id": "1784959703083",
+        "rawText": "accident in NH24",
+        "language": "English",
+        "translatedText": "accident in NH24",
+        "timestamp": 1784959703083
+      }
+    ]
+  },
+  {
+    "id": "UG-YVV08",
+    "title": "Electricity Outage Reported in Bhubaneswar",
+    "department": "electricity",
+    "location": "Bhubaneswar",
+    "severity": "Medium",
+    "status": "Routed to Portal",
+    "targetPortal": "https://api.electricityboard.gov.in/grievance",
+    "createdAt": 1784959642808,
+    "reports": [
+      {
+        "id": "1784959642808",
+        "rawText": "electricity out in bhubaneswar",
+        "language": "English",
+        "translatedText": "Electricity out in Bhubaneswar",
+        "timestamp": 1784959642808
+      }
+    ]
+  },
+  {
+    "id": "UG-YUFW3",
+    "title": "Unscheduled Electricity Outage Reported",
+    "department": "electricity",
+    "location": "Not specified",
+    "severity": "Medium",
+    "status": "Routed to Portal",
+    "targetPortal": "https://api.electricityboard.gov.in/grievance",
+    "createdAt": 1784959576563,
+    "reports": [
+      {
+        "id": "1784959576563",
+        "rawText": "electricity out",
+        "language": "en",
+        "translatedText": "electricity out",
+        "timestamp": 1784959576563
+      }
+    ]
+  }
+]
